@@ -1,0 +1,145 @@
+2021-07-25T19:24:04,006 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN ApplicationManagementServiceComponent Templates directory not found at /home/robert/develop/HealthInformationExchange/wso2am-4.0.0/repository/resources/identity/authntemplates
+2021-07-25T19:24:42,235 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,236 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,237 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,238 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,238 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,239 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,240 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,240 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:24:42,241 [-] [Framework Event Dispatcher: Equinox Container: d811948c-5a08-4d67-bcb4-6b3417de92a4]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2021-07-25T19:42:52,146 [-] [https-jsse-nio-9443-exec-39] ERROR OIDCSessionIFrameServlet Error while retrieving OAuth application information for the provided client id : rSCEAKZkdCeEJizapYvIyAv6diwa, Cannot find an application associated with the given consumer key : rSCEAKZkdCeEJizapYvIyAv6diwa
+2021-07-25T19:51:00,601 [-] [HTTPS-Listener I/O dispatcher-6]  WARN AccessConfiguration Error loading properties from file: access-log.properties
+2021-07-25T19:51:00,605 [-] [HTTPS-Listener I/O dispatcher-6]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2021-07-25T19:51:00,609 [-] [HTTPS-Listener I/O dispatcher-6]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2021-07-25T19:51:01,168 [-] [PassThroughMessageProcessor-3] ERROR DigestAuthMediator WWW-Authenticate header is not found. Digest authentication is not supported by the backend
+2021-07-25T19:57:03,444 [-] [HTTPS-Listener I/O dispatcher-7]  WARN SourceHandler I/O error: Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than tag size (16)
+2021-07-25T19:59:56,712 [-] [PassThroughMessageProcessor-9]  WARN APIAuthenticationHandler API authentication failure due to Missing Credentials
+2021-07-25T21:09:40,029 [-] [https-jsse-nio-9443-exec-23]  WARN refresh:jag Something went wrong while refreshing the token
+2021-07-25T21:09:40,031 [-] [https-jsse-nio-9443-exec-23] ERROR refresh:jag {}
+2021-07-25T21:09:40,065 [-] [https-jsse-nio-9443-exec-22] ERROR WebAppAuthenticatorImpl Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2021-07-25T21:09:40,066 [-] [https-jsse-nio-9443-exec-22] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2021-07-25T21:14:22,098 [-] [https-jsse-nio-9443-exec-42]  WARN TenantInfoApiServiceImpl Could not decode the username. Using original username
+2021-07-25T21:24:52,640 [-] [https-jsse-nio-9443-exec-46] ERROR ApisApiServiceImpl Cannot remove the API 2d465403-6213-48e9-a3d2-56a5fd518d75 as active subscriptions exist
+2021-07-25T21:28:22,499 [-] [https-jsse-nio-9443-exec-41] ERROR ApisApiServiceImpl Cannot remove the API 4424f7c7-3b43-42c5-90ef-9123f0d974eb as active subscriptions exist
+2021-07-25T21:30:15,357 [-] [https-jsse-nio-9443-exec-7] ERROR ApisApiServiceImpl Cannot remove the API dc078129-caac-47ea-b095-69e4dd159ca8 as active subscriptions exist
+2021-07-25T22:02:09,384 [-] [PassThroughMessageProcessor-26]  WARN APIAuthenticationHandler API authentication failure due to Missing Credentials
+2021-07-25T22:02:49,629 [-] [https-jsse-nio-9443-exec-4]  WARN TenantInfoApiServiceImpl Could not decode the username. Using original username
+2021-07-25T22:06:02,875 [-] [https-jsse-nio-9443-exec-17]  WARN CarbonAuthenticationUtil Login failed. Unauthorized login attempt 'admin[-1234]' at [2021-07-25 22:06:02,875+0200]
+2021-07-25T22:06:52,502 [-] [https-jsse-nio-9443-exec-45] ERROR DataSourceRepository Error establishing data source connection: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:repository/database/WSO2METRICS_DB;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-199]
+org.wso2.carbon.ndatasource.common.DataSourceException: Error establishing data source connection: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:repository/database/WSO2METRICS_DB;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-199]
+	at org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader.testDataSourceConnection(RDBMSDataSourceReader.java:95) ~[org.wso2.carbon.ndatasource.rdbms_4.6.2.jar:?]
+	at org.wso2.carbon.ndatasource.core.DataSourceRepository.testDataSourceConnection(DataSourceRepository.java:513) [org.wso2.carbon.ndatasource.core_4.6.2.jar:?]
+	at org.wso2.carbon.ndatasource.core.services.NDataSourceAdminService.testDataSourceConnection(NDataSourceAdminService.java:90) [org.wso2.carbon.ndatasource.core_4.6.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:212) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:117) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:110) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.transport.local.LocalTransportReceiver.processMessage(LocalTransportReceiver.java:170) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.transport.local.LocalTransportReceiver.processMessage(LocalTransportReceiver.java:82) [axis2_1.6.1.wso2v63.jar:?]
+	at org.wso2.carbon.core.transports.local.CarbonLocalTransportSender.finalizeSendWithToAddress(CarbonLocalTransportSender.java:45) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.apache.axis2.transport.local.LocalTransportSender.invoke(LocalTransportSender.java:77) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:446) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:232) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149) [axis2_1.6.1.wso2v63.jar:?]
+	at org.wso2.carbon.ndatasource.ui.stub.NDataSourceAdminStub.testDataSourceConnection(NDataSourceAdminStub.java:2520) [org.wso2.carbon.ndatasource.stub_4.7.35.jar:?]
+	at org.wso2.carbon.ndatasource.ui.NDataSourceAdminServiceClient.testDataSourceConnection(NDataSourceAdminServiceClient.java:88) [org.wso2.carbon.ndatasource.ui_4.7.35.jar:?]
+	at org.apache.jsp.ndatasource.validateconnection_002dajaxprocessor_jsp._jspService(validateconnection_002dajaxprocessor_jsp.java:139) [hc_217821732/:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71) [tomcat_9.0.34.wso2v1.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) [tomcat_9.0.34.wso2v1.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:207) [org.wso2.carbon.ui_4.6.2.jar:?]
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80) [org.wso2.carbon.ui_4.6.2.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37) [org.eclipse.equinox.http.helper_1.1.0.wso2v1.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) [org.eclipse.equinox.http.servlet_1.1.400.v20130418-1354.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) [org.eclipse.equinox.http.servlet_1.1.400.v20130418-1354.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68) [org.eclipse.equinox.http.servlet_1.1.400.v20130418-1354.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88) [csrfguard_3.1.0.wso2v3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.ui.filters.cache.URLBasedCachePreventionFilter.doFilter(URLBasedCachePreventionFilter.java:57) [org.wso2.carbon.ui_4.6.2.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:65) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:107) [org.wso2.carbon.identity.context.rewrite.valve_1.4.25.jar:?]
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:110) [org.wso2.carbon.identity.authz.valve_1.4.25.jar:?]
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:102) [org.wso2.carbon.identity.auth.valve_1.4.25.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:101) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:126) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:repository/database/WSO2METRICS_DB;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:617) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.ConnectionInfo.getName(ConnectionInfo.java:393) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.Engine.openSession(Engine.java:53) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.Engine.openSession(Engine.java:201) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:178) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.Engine.createSession(Engine.java:161) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.Engine.createSession(Engine.java:31) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:336) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:169) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:148) ~[h2_1.4.199.wso2v1.jar:?]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2_1.4.199.wso2v1.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:677) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:228) ~[java.sql:?]
+	at org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader.testDataSourceConnection(RDBMSDataSourceReader.java:80) ~[org.wso2.carbon.ndatasource.rdbms_4.6.2.jar:?]
+	... 83 more
+2021-07-25T22:09:08,135 [-] [PassThroughMessageProcessor-30]  WARN APIAuthenticationHandler API authentication failure due to Missing Credentials
+2021-07-25T22:10:37,990 [-] [https-jsse-nio-9443-exec-12]  WARN refresh:jag Something went wrong while refreshing the token
+2021-07-25T22:10:37,991 [-] [https-jsse-nio-9443-exec-12] ERROR refresh:jag {}
+2021-07-25T22:10:37,998 [-] [https-jsse-nio-9443-exec-28]  WARN refresh:jag Something went wrong while refreshing the token
+2021-07-25T22:10:37,999 [-] [https-jsse-nio-9443-exec-28] ERROR refresh:jag {}
+2021-07-25T22:10:38,057 [-] [https-jsse-nio-9443-exec-4] ERROR WebAppAuthenticatorImpl Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2021-07-25T22:10:38,058 [-] [https-jsse-nio-9443-exec-4] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2021-07-25T22:10:38,076 [-] [https-jsse-nio-9443-exec-1] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2021-07-25T22:22:13,389 [-] [https-jsse-nio-9443-exec-39]  WARN APIUtil The configurations related to Api Key Generator Impl class in APIStore is missing in api-manager.xml. Hence returning the default value.
+2021-07-25T22:22:13,485 [-] [https-jsse-nio-9443-exec-39]  WARN APIUtil The configurations related to APIKey sign keystore in APIStore is missing in api-manager.xml. Hence returning the default value.
+2021-07-25T22:22:13,532 [-] [https-jsse-nio-9443-exec-39]  WARN APIUtil The configurations related to APIKey sign keystore in APIStore is missing in api-manager.xml. Hence returning the default value.
+2021-07-25T22:31:12,764 [-] [https-jsse-nio-9443-exec-10]  WARN TenantInfoApiServiceImpl Could not decode the username. Using original username
